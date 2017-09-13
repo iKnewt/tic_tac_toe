@@ -7,12 +7,12 @@ namespace game
 	struct Player
 	{
 		string name;
-		string character;
-		int wins;
+		char character;
+		int winCount;
 	};
 
 	void game(Player* player1, Player* player2);
-	string playerCharacter(string playerName, string playerCharacter);
+	char playerCharacter(string playerName, char playerCharacter);
 	string playerName(int playerNumber);
 }
 
